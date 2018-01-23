@@ -4,6 +4,8 @@
 # Backend Module 1
 
 def check(num) # Method to test number
+  if(num === 0) then return 0 end
+
   value = "" # Initialize output variable
 
   # Use modulo to add Super|Fizz|Buzz to final value
@@ -18,6 +20,6 @@ def check(num) # Method to test number
   return value # Return the final Super|Fizz|Buzz value
 end
 
-1000.times do |i| # Iterate from 0 to 999
-  puts check(i + 1) # Has to be i + 1 because we want [1, N]
+1001.times do |i| # Iterate from 0 to 1000 (1001 times)
+  puts check(i) # Has to be i + 1 because we want [1, N]
 end
