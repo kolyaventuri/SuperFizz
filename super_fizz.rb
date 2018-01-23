@@ -3,7 +3,7 @@
 # Turing - Cohort 1801
 # Backend Module 1
 
-def check(num)
+def check(num) # Method to test number
   value = "" # Initialize output variable
 
   # Use modulo to add
