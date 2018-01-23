@@ -14,7 +14,6 @@ def check(num) # Method to test number
   if(num % 3 == 0) then value += "Fizz" end # If divisible by 3, add Fizz
   if(num % 5 == 0) then value += "Buzz" end # If divisible by 5, add Buzz (3 and 5 aren't in descending order for a reason)
 
-
   if(value.length < 1) then return num.to_s end # Return the number to print if nothing worked
 
   return value # Return the final Super|Fizz|Buzz value
