@@ -6,7 +6,7 @@
 def check(num) # Method to test number
   value = "" # Initialize output variable
 
-  # Use modulo to add
+  # Use modulo to add Super|Fizz|Buzz to final value
 
   if(num % 7 == 0) then value += "Super" end # If divisible by 7, add Super
   if(num % 3 == 0) then value += "Fizz" end # If divisible by 3, add Fizz
